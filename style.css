@@ -1,0 +1,134 @@
+
+body {
+    background: #eeeeee;
+    color: #404041;
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+}
+
+
+.full-page-wrap{
+    width:100%;
+}
+
+.header-block {
+    background: #404041;
+    color: #fff;
+    width: 100%;
+    margin-bottom:5px;
+    
+}
+
+.top-bar {
+    text-align: center;
+    margin-bottom:5px;
+    width:100%;
+}
+
+.header-img{
+        background: url(http://via.placeholder.com/600x550) repeat-x scroll center center rgba(0, 0, 0, 0);
+    margin-bottom: 40px;
+    height: 542px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.title {
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+
+.title img {
+    display: inline-block;
+    height:50px;
+width:auto;
+}
+
+.address {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.phone{
+        color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container-alt{
+    width:85%;
+    margin:0 auto;
+    background:#fff;
+    overflow:hidden;
+}
+
+@media screen and (max-width:665px){
+    
+    
+    .container-alt{
+    width:100%;
+    margin:0 auto;
+    background:#fff;
+    overflow:hidden;
+}
+}
+/* Caro */
+.flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+}
+
+/*footer*/
+
+footer{
+    padding:20px;
+    margin:20px;
+    color:#ffffff;
+    background-color:#35424a;
+    text-align:center;
+}
+
+
+.facebook a{
+   color:white;
+    text-decoration:none;
+  
+}
+
+.instagram a{
+    text-decoration:none;
+    color:white;
+    
+}
+
+.facebook a:hover{
+    color:blue;
+    
+}
+
+
+.instagram a:hover{
+    color:red;
+    
+}
