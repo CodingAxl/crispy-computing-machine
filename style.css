@@ -16,6 +16,9 @@ body {
     color: #fff;
     width: 100%;
      border-bottom:#1db8e8 3px solid;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
 }
 
 .top-bar {
@@ -29,6 +32,7 @@ body {
     margin-bottom: 10px;
     height: 400px;
     text-align:center;
+    margin-top:51px;
 }
 
  .showcase h1 {
@@ -53,18 +57,37 @@ body {
 
 .title img {
     display: inline-block;
-    height:50px;
+    height:40px;
 width:auto;
 }
 
+.title h1{
+        margin: 5px 0px 3px 0px;
+}
 .address {
     color: #fff;
     font-size: 20px;
     font-style: normal;
-    padding: 25px 100px 0px 0px;
+    padding: 10px 100px 0px 0px;
     text-align: center;
     text-transform: uppercase;
-    flex:3;
+    flex:4;
+    width:100%;
+}
+
+.address a{
+    text-decoration:none;
+    border:#1db8e8 1px solid;
+    background-color: #1db8e8;
+    padding: 0px 10px 0px 10px;
+    color: #fff;
+    border-radius: 7px;
+    opacity:.9;
+}
+
+.address a:hover{
+opacity:1;
+
 }
 
 .info-area{
