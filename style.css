@@ -1,4 +1,130 @@
 
+
+.boxes{
+    text-align:center;
+    margin:0 auto;
+    display:flex;
+    flex-flow: row nowrap;
+  justify-content: center;
+}
+    @media screen and (max-width:949px){
+
+.boxes{
+    text-align:center;
+    margin:0 auto;
+    display:block;
+    flex-flow: row nowrap;
+  justify-content: center;
+}
+
+}
+
+    @media screen and (min-width:950px){
+    .flex-hover:hover{
+      transition: .9s;
+      max-width: 32% !important;
+      /*background:                             REMOVED IMAGE ON HOVER
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://cdn.pixabay.com/photo/2015/03/30/12/37/jellyfish-698521_960_720.jpg);*/
+      flex-grow: 2;
+      cursor: pointer;
+      color: #fff;
+       opacity:1;
+    }
+        .flex-hover{
+    transition: .6s;
+    max-width: 30%;
+    padding: 8em 0;
+    min-width: 10%;
+}
+}
+
+.module {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(img/kettlebells.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  flex:1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  opacity:.9;
+  color:#a6b6c6;
+}
+
+
+.module2 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(img/weights.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  flex:1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   opacity:.9;
+   color:#a6b6c6;
+}
+
+.module3 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(img/sports.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  flex:1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   opacity:.9;
+   color:#a6b6c6;
+}
+
+.module4 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(img/workout.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  flex:1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   opacity:.9;
+   color:#a6b6c6;
+}
+
+
+
 body {
     background: #eeeeee;
     color: #404041;
@@ -29,25 +155,30 @@ body {
 }
 
 .showcase{
-        background: url(http://via.placeholder.com/631x400) repeat-x scroll center center rgba(0, 0, 0, 0);
-    margin-bottom: 10px;
+        background: url(img/wave.jpg) center rgba(0, 0, 0, 0);
     height: 400px;
     text-align:center;
     margin-top:51px;
+    background-size:cover;
+    border-bottom:red 2px solid;
+
 }
 
  .showcase h1 {
     color: #fff;
     font-size: 50px;
     margin: 0;
-    padding-top:50px;
+    padding-top:140px;
 }
 
  .showcase .blue {
     
-    color:#1db8e8;
+    color:#0d4896;
 }
 
+.graduate-font{
+    font-family: 'Graduate', cursive;
+}
 .title {
     display: inline-block;
     font-weight: 600;
@@ -74,6 +205,8 @@ width:auto;
     text-transform: uppercase;
     flex:4;
     width:100%;
+    font-family: 'Graduate', cursive;
+    
 }
 
 .address a{
@@ -95,6 +228,7 @@ opacity:1;
     width:90%;
     margin:0 auto;
     text-align:center;
+    clear:both;
 }
 
 .info-area h1{
@@ -134,6 +268,7 @@ display:none;
 }
 
 
+
 @media screen and (max-width:665px){
     
     
@@ -160,7 +295,6 @@ display:none;
 
 footer{
     padding:20px;
-    margin:20px;
     color:#ffffff;
     background-color:#35424a;
     text-align:center;
@@ -189,3 +323,4 @@ footer{
     color:red;
     
 }
+
