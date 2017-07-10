@@ -32,7 +32,10 @@
     
     
 
-<script type="text/javascript" src="script.js"></script>
+    <!-- CSSLESS COMPILER MAY NEED TO BE CHANGED INSTEAD OF USING JS -->
+    <script type="text/javascript" src="script.js"></script>
+   <!-- TURNED INTO CSS CODE NO NEED   <link rel="stylesheet/less" type="text/css" href="main.less" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script> -->
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>4Ever Fitness | Welcome</title>
     
@@ -53,12 +56,13 @@
      <div class="header-block">
          <div class="top-bar">
              <div class="title">
-                 <h1><span><img src="https://github.com/CodingAxl/4EverFitness/blob/master/images/4everlogo.gif?raw=true" class="logo" alt="4EverFitness Logo &copy;"></span></h1>
+               <span class="steps-header">Active Stretching</span> <span class="steps-header">Strength Training</span> <span class="steps-header">Cardiovascular Excercise</span> <span class="steps-header">Balanced Nutrition</span>
+             
+             <div class="call-now"> <a href="tel:386-788-5678"><i class="fa fa-phone" aria-hidden="true"></i> Call Now </a></div> 
+             
              </div>
              
-             <div class="address">
-                             <p>4639 S Clyde Morris Blvd # 104, Port Orange, FL 32129 <span>  <a href="tel:386-788-5678"><i class="fa fa-phone" aria-hidden="true"></i> 386-788-5678 </a></span> </p>
-             </div>
+             
               
          </div>
          
@@ -68,72 +72,147 @@
      
      
      
-     <div class="showcase">   
-     
-         <h1 class="graduate-font">4Ever<span class="blue"> |Fitness</span></h1>
+     <div class="showcase img-showcase">   
+       <div class="showcase-text">
+         <h1>4Ever<span class="blue"> |Fitness</span></h1>
           <p>We place slogan or copywrite wording here to draw attention... </p>
+          </div>
           
     </div>
-          
-          
-     
  </header>
  
  
-<section>
-<div class="boxes">
-<div class="module flex-hover" >
-  <h2 class="graduate-font">Club Hours</h2>
-  <p><b>24/7 Access For Members</b></p>
- <p> Staffed Hours:<br>
-      Monday-Thursday:8-7pm <br>
-      Friday:8-6pm<br>
-      Saturday:8-12pm<br>
-      Sunday:Closed
-  </p>
-  
-</div>
+ <div class="cards">
 
-<div class="module2  flex-hover">
-  <h2 class="graduate-font">INFO HEADER</h2>
-  <p>Info Detail</p>
-</div>
-
-
-<div class="module3  flex-hover">
-    <h2 class="graduate-font">Info Header</h2>
-  <p>Info Detail</p>
-</div>
-
-<div class="module4  flex-hover ">
-      <h2 class="graduate-font">Info Header</h2>
-  <p>Info Detail</p>
-</div>
-
-</div>
-</section>
-
-
-    <!-- MAP HERE -->
-    
-      
-         <div style='overflow:hidden;height:375px;width:100%;'>
-             <div id='gmap_canvas' style='height:375px;width:100%;'>
-                 
-             </div>
-             <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
-             </div>
-             
-             <script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(29.12645779999999,-81.02513650000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(29.12645779999999,-81.02513650000003)});infowindow = new google.maps.InfoWindow({content:'<strong>4Ever Fitness</strong><br>4639 Clyde Morris Blvd. #101 Port Orange, FL 32129<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmJauqdA8LtOajqFTvo4ZePJYghGXssuU&callback=init_map"></script>
+  <div class="card">
+    <img src="img/wave1.jpg">
+    <div class="card-title">
+      <a href="#" class="toggle-info btn">
+        <span class="left"></span>
+        <span class="right"></span>
+      </a>
+      <h2>
+          Hours Of Operation
+          <small><br></small>
+      </h2>
+    </div>
+    <div class="card-flap flap1">
+      <div class="card-description" style="text-align:center">
+        <strong>Member Access 24 Hours A Day 7 Days A Week</strong><br>
+        Serviced/Guests/Sales Hours:<br>
+        Monday - Thursday: 8AM-7PM<br>
+        Friday: 8AM-6PM<br>
+        Saturday: 8AM-12PM<br>
+        Sunday: Member Access Only
         
-           
-            <!-- MAP HERE -->
+      </div>
+      <div class="card-flap flap2">
+        <div class="card-actions">
+          <img src="img/4ef.jpg"style="height:60px; width:auto">
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="card">
+    <img src="img/wave.jpg">
+    <div class="card-title">
+      <a href="#" class="toggle-info btn">
+        <span class="left"></span>
+        <span class="right"></span>
+      </a>
+      <h2>
+          Our Facility
+          <small><br></small>
+      </h2>
+    </div>
+    <div class="card-flap flap1">
+      <div class="card-description" style="text-align:center">
+         <img src="img/lifefitness.png" style="height:20px; width:auto"> <img src="img/hammer-strength-logo.png" style="height:25px; width:auto"><br>
+       Strengh Training Areas Featuring Life Fitness and Hammer Strength <br>
+       Cardio And Stretching Areas<br>
+       Fully equipped Bathrooms With Shower Access For All Members<br>
+      </div>
+      <div class="card-flap flap2">
+        <div class="card-actions">
+         <!-- PLACEHOLDER ANCHOR  <a href="#" class="btn"></a> -->
+          <img src="img/4ef.jpg"style="height:60px; width:auto">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="img/wave3.jpg">
+    <div class="card-title">
+      <a href="#" class="toggle-info btn">
+        <span class="left"></span>
+        <span class="right"></span>
+      </a>
+      <h2>
+          Services
+          <small><br></small>
+      </h2>
+    </div>
+    <div class="card-flap flap1">
+      <div class="card-description" style="text-align:center">
+        Pro-Fit Description<br>
+        Personal Training Packages <br>
+        
+      </div>
+      <div class="card-flap flap2">
+        <div class="card-actions">
+       <img src="img/4ef.jpg"style="height:60px; width:auto">
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="card">
+    <img src="img/wave2.jpg">
+    <div class="card-title">
+      <a href="#" class="toggle-info btn">
+        <span class="left"></span>
+        <span class="right"></span>
+      </a>
+      <h2>
+          4 Steps To Fitness
+          <small><br></small>
+      </h2>
+    </div>
+    <div class="card-flap flap1">
+      <div class="card-description">
+        Active Stretching: <br>
+        Strength Training: <br>
+        Cardiovascular Excercise: <br>
+        Balanced Nutrition: <br>
+      </div>
+      <div class="card-flap flap2">
+        <div class="card-actions">
+   <img src="img/4ef.jpg"style="height:60px; width:auto">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+ 
+ 
+ 
+ <br>
+  <br>
+
+
 
 
  
    <footer>
       <div ="container-alt">
+        <br>
+        <div class="footer-text">
+                             <p>4639 S Clyde Morris Blvd # 104, Port Orange, FL 32129 <br><span>  <a href="tel:386-788-5678"><i class="fa fa-phone" aria-hidden="true"></i> 386-788-5678 </a></span> </p>
+            <p><a href="mailto:4everfitness@cfl.rr.com">4everfitness@cfl.rr.com</a></p>
+            
+             </div>
         <span class="facebook"><a href="https://www.facebook.com/4EverFitnessPortOrange/" target="_blank"><i class="fa fa-facebook-official fa-3x " aria-hidden="true"></i></a></span>
         <span class="instagram"><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x " aria-hidden="true"></i></a></span>
         
